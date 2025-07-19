@@ -9,7 +9,7 @@ export default function Index() {
       <SafeAreaView style={styles.container}>
         <View style={styles.navGroup}>
           <Ionicons name="arrow-back" size={25} />
-          <Image source={require('@/assets/images/icon.png')} />
+          {/* <Image source={require('@/assets/images/icon.png')} /> */}
         </View>
         <Text style={styles.largeText}>Sign in to your</Text>
         <Text style={styles.largeText}>Account</Text>
@@ -45,14 +45,14 @@ export default function Index() {
         <View style={styles.socialMediaButtonGroup}>
           <TouchableOpacity style={styles.socialMediaButton}>
             <View style={{ flexDirection: "row", alignItems: "center", gap: 5 }}>
-              <Image source={require("@/assets/images/icon.png")} />
+              {/* <Image source={require("@/assets/images/icon.png")} /> */}
               <Text style={styles.socialMediaButtonText}>Continue with Google</Text>
             </View>
           </TouchableOpacity>
 
           <TouchableOpacity style={styles.socialMediaButton}>
             <View style={{ flexDirection: "row", alignItems: "center", gap: 5 }}>
-              <Image source={require("@/assets/images/icon.png")} />
+              {/* <Image source={require("@/assets/images/icon.png")} /> */}
               <Text style={styles.socialMediaButtonText}>Continue with Facebook</Text>
             </View>
           </TouchableOpacity>
